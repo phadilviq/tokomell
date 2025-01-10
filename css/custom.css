@@ -1,0 +1,108 @@
+/* fix bug in new collection component */
+.h1sq {
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+}
+
+/* fix bug in about component */
+@media (min-width: 1200px) {
+    .mdksj {
+      padding: 0 !important;
+    }
+  }
+  
+/* fix bug in about component */
+.dsdas { 
+        padding-top: 0 !important;
+        margin-top: 0 !important;
+}
+/* fix tampilan cart */
+.cart{
+  background-color: #fff;
+  padding: 4vh 5vh;
+  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+@media(max-width:896px){
+  .cart{
+      padding: 4vh;
+      border-bottom-left-radius: unset;
+      border-top-right-radius: 1rem;
+  }
+}
+.summary{
+  background-color: #ddd;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  padding: 4vh;
+  color: rgb(65, 65, 65);
+}
+@media(max-width:896px){
+  .summary{
+  border-top-right-radius: unset;
+  border-bottom-left-radius: 1rem;
+  }
+}
+.summary .col-2{
+  padding: 0;
+}
+.summary .col-10
+{
+  padding: 0;
+}
+.close{
+  margin-left: auto;
+  font-size: 0.7rem;
+  float: right;
+}
+.text-right {
+  text-align: right !important;
+}
+.back-to-shop{
+  padding-top: 4vh;
+}
+.product {
+  display: flex;
+  align-items: center;
+}
+
+.qty {
+  width: 40px;
+  text-align: center;
+}
+
+@media (max-width: 1000px) { /* Atur breakpoint sesuai kebutuhan */
+  .quantity {
+    display: none;
+  }
+}
+
+.icon-container {
+  display: flex;
+  flex-wrap: wrap; /* Membungkus elemen jika terlalu panjang */
+  justify-content: center; /* Posisi elemen di tengah */
+  gap: 2rem; /* Jarak antar elemen */
+}
+
+.icon-item {
+  margin: 0 1rem; /* Jarak kanan dan kiri */
+  text-align: center;
+}
+
+.icon-item img {
+  display: block; /* Menghapus margin bawaan gambar */
+  max-width: none; /* Biarkan ukuran gambar asli */
+  height: auto; /* Pastikan proporsi gambar tetap terjaga */
+}
+
+@media (min-width:992px) {
+  .dsasf {
+    justify-content: left!important;
+  }
+}
+
+.btn-icon {
+  display: flex;
+  align-items: center; /* Menempatkan ikon di tengah secara vertikal */
+  justify-content: center; /* Menempatkan ikon di tengah secara horizontal */
+}
