@@ -1,0 +1,1 @@
+<?php include 'component/contact.php' ?>

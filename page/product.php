@@ -1,0 +1,1 @@
+<?php include 'component/product.php' ?>
